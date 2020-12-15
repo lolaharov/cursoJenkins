@@ -19,21 +19,21 @@ public class AppTest
     }
     
      @Test
-    public void pruebaDoblar()
+    public static pruebaDoblar()
     {
         int resultado=App.doblar(5);
         assertEquals( resultado, 10) ;
     }
     
       @Test
-    public void pruebaDoblarCero()
+    public static pruebaDoblarCero()
     {
         int resultado=App.doblar(0);
         assertEquals( resultado, 0) ;
     }
     
        @Test
-    public void pruebaDoblarNegativo()
+    public static pruebaDoblarNegativo()
     {
         int resultado=App.doblar(-5);
         assertEquals( resultado, -10) ;
