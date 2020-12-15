@@ -10,4 +10,16 @@ public class App
     {
         System.out.println( "Hello jenkins!" );
     }
+    
+    public static int doblar( int numero )
+    {
+        return numero 2; 
+    }
+    
+    public static int mayor( int numero1, int numero2 )
+    {
+        if (numero1 > numero2)  {
+            return numero 1
+        }
+        return numero 2;
 }
